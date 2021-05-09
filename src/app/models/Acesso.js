@@ -1,12 +1,13 @@
 import Sequelize, { Model } from 'sequelize';
 
 
-class Animais extends Model {
+class Acesso extends Model {
   static init(sequelize) {
     super.init(
       {
-        name_animal: Sequelize.STRING,
-        raca_animal: Sequelize.STRING,
+        name: Sequelize.STRING,
+        email: Sequelize.STRING,
+        regiao: Sequelize.STRING,
       },
       {
         sequelize,
@@ -16,4 +17,4 @@ class Animais extends Model {
   }
   
 }
-export default Animais;
+export default Acesso;

@@ -5,7 +5,7 @@ module.exports = {
   host: 'localhost',
   username: 'root',
   password: 'root',
-  database: 'testeedesoft',
+  database: 'teste',
   define: {
     timestamps: true,
     underscored: true,
